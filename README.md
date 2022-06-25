@@ -1,4 +1,4 @@
-# Breast-Cancer-Detection-Using-the-NVIDIA-Jetson-Nano-2GB-Developer-Kit
+# Breast Cancer Detection Using the NVIDIA Jetson Nano 2GB Developer Kit
 ## What does it do?
 This project uses AI training to detect breast cancer. <br />
 It compares images/ultrasound data to check if a tumor is benign (harmless) or malignant (harmful). <br />
