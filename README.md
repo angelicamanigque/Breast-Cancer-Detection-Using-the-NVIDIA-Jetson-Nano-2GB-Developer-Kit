@@ -11,6 +11,3 @@ The Jetson 2GB Developer Kit <br />
 5V Power Supply <br />
 WiFi Router + Ethernet Cable <br />
 Host Machine (ex. PC, Laptop) <br />
-
-## Note:
-Please please please make sure you have enough space on your Nano before beginning this project! It was my main issue I had while completing it. Please follow the directions for making a swap file to avoid any problems with getting into the roboflow docker. :)
