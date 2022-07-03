@@ -16,3 +16,4 @@ Host Machine (ex. PC, Laptop) <br />
 
 # Project Steps (in order):
 ## [Setup](https://github.com/angelicamanigque/Breast-Cancer-Detection-Using-the-NVIDIA-Jetson-Nano-2GB-Developer-Kit/blob/main/Setup.md)
+## [Creating the Project(https://github.com/angelicamanigque/Breast-Cancer-Detection-Using-the-NVIDIA-Jetson-Nano-2GB-Developer-Kit/blob/main/Creating_The_Project.md)
