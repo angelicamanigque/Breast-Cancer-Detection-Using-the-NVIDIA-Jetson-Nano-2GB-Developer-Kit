@@ -1,5 +1,5 @@
 # Setup
-## Flashing the Image
+## Setting Up the Nano
 If your Jetson Nano isn't set up yet, here's a tutorial on how to do that: https://www.youtube.com/watch?v=uvU8AXY1170&ab_channel=NVIDIADeveloper
 
 ## Making a Swap File
