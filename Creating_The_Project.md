@@ -42,4 +42,6 @@ Next up are some steps for uploading your image using base64 so it can be run th
 8. Post the URL to the API:
     >r = requests.post(upload_url, data=img_str, headers={"Content-Type": "application/x-www-form-urlencoded"})
 9. This last command will print out the result!
-    >print(r.json())
+    >print(r.json()) <br />
+ 
+![image](https://dw.convertfiles.com/files/0529821001656813930/da_prediction.jpg)
