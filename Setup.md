@@ -20,4 +20,4 @@ The amount of swap in the video is not enough to be able to pull Roboflow from t
     >echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 8. After rebooting, make sure to check if the swap is still there:
     >free -m
-9. Finished! You are now ready to start making the breast cancer detection project! :)
+9. Finished! You are now ready to start making the [breast cancer detection project](https://github.com/angelicamanigque/Breast-Cancer-Detection-Using-the-NVIDIA-Jetson-Nano-2GB-Developer-Kit/blob/main/Creating_The_Project.md)! :)
