@@ -8,8 +8,10 @@ After making the swap file during [setup](https://github.com/angelicamanigque/Br
 3. You can now move on to making the code file for the model!
 
 ## Making the Code File
-Before starting this entire section, I recommend having the page for the [roboflow model](https://app.roboflow.com/nvidia-jetson-nano-2gb/breast-cancer-detection/1) open. Then scroll down and click the section that says "Use curl command". The pop-up will contain information that you will need later. Without further ado, let's get started: <br />
-1. First, download a test image that you want the model to classify. These instructions will be using a sample image of a malignant tumor:
+Before starting this entire section, I recommend having the page for the [roboflow model](https://app.roboflow.com/nvidia-jetson-nano-2gb/breast-cancer-detection/1) open. Then scroll down and click the section that says "Use curl command". The pop-up will contain information that you will need later. <br />
+![image](https://dw.convertfiles.com/files/0089251001656813677/curl_command.jpg)
+Without further ado, let's get started: <br />
+1. First, download a test image that you want the model to classify. These instructions will be using the sample image of the malignant tumor:
     >wget https://dw.convertfiles.com/files/0853941001656809378/malignant.jpg
 2. Next, you'll need to install "requests", something you'll use later in the code:
     >sudo pip3 install requests pillow
