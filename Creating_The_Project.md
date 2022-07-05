@@ -9,7 +9,7 @@ After making the swap file during [setup](https://github.com/angelicamanigque/Br
 
 ## Making the Code File
 Before starting this entire section, I recommend having the page for the [roboflow model](https://app.roboflow.com/nvidia-jetson-nano-2gb/breast-cancer-detection/1) open. Then scroll down and click the section that says "Use curl command". The pop-up will contain information that you will need later. <br />
-![image](curl_command.JPG)
+![curl_command](https://user-images.githubusercontent.com/95183346/177419217-d08159de-4a3b-4154-8c81-f335b30c9cb6.PNG)
 Without further ado, let's get started: <br />
 1. First, download a test image that you want the model to classify. Use [this website](https://www.convertfiles.com/) to convert any image you like into a link. Copy the link. (These instructions will be using the sample image of the malignant tumor):
     >wget [paste your link here]
@@ -44,4 +44,4 @@ Next up are some steps for uploading your image using base64 so it can be run th
 9. This last command will print out the result!
     >print(r.json()) <br />
  
-![image](https://dw.convertfiles.com/files/0529821001656813930/da_prediction.jpg)
+![da_prediction](https://user-images.githubusercontent.com/95183346/177419408-711be3eb-5ffd-471f-ad12-326bfa8d1492.PNG)
