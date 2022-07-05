@@ -9,7 +9,7 @@ After making the swap file during [setup](https://github.com/angelicamanigque/Br
 
 ## Making the Code File
 Before starting this entire section, I recommend having the page for the [roboflow model](https://app.roboflow.com/nvidia-jetson-nano-2gb/breast-cancer-detection/1) open. Then scroll down and click the section that says "Use curl command". The pop-up will contain information that you will need later. <br />
-![image](curl_command.jpg)
+![image](curl_command.JPG)
 Without further ado, let's get started: <br />
 1. First, download a test image that you want the model to classify. These instructions will be using the sample image of the malignant tumor:
     >wget https://dw.convertfiles.com/files/0853941001656809378/malignant.jpg
