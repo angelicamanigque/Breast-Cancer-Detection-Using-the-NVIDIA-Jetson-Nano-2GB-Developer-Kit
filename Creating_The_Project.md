@@ -41,7 +41,12 @@ Next up are some steps for uploading your image using base64 so it can be run th
     >upload_url = "".join(["https://detect.roboflow.com/breast-cancer-detection/1","?api_key="+MY_KEY,"&name="+img_path])
 8. Post the URL to the API:
     >r = requests.post(upload_url, data=img_str, headers={"Content-Type": "application/x-www-form-urlencoded"})
-9. This last command will print out the result!
+9. This last command prints out the result!
     >print(r.json()) <br />
+10. Once you're done with typing in the code, do Ctrl+X and hit Y to save your file.
+11. Finally, in the command line, type in
+    >python3 cancer_model.py <br />
+   
+You should see the results! :D
  
 ![da_prediction](https://user-images.githubusercontent.com/95183346/177419408-711be3eb-5ffd-471f-ad12-326bfa8d1492.PNG)
