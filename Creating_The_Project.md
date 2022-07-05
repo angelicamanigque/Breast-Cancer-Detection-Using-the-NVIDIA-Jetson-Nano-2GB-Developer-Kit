@@ -43,7 +43,7 @@ Next up are some steps for uploading your image using base64 so it can be run th
     >r = requests.post(upload_url, data=img_str, headers={"Content-Type": "application/x-www-form-urlencoded"})
 9. This last command prints out the result!
     >print(r.json()) <br />
-10. Once you're done with typing in the code, do Ctrl+X and hit Y to save your file.
+10. Once you're done typing in the code, do Ctrl+X, hit Y. and press Enter to save your file.
 11. Finally, in the command line, type in
     >python3 cancer_model.py <br />
    
