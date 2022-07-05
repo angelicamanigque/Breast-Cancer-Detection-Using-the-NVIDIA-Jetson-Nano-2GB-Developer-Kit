@@ -3,7 +3,7 @@
 If your Jetson Nano isn't set up yet, here's a tutorial on how to do that: https://www.youtube.com/watch?v=uvU8AXY1170&ab_channel=NVIDIADeveloper
 
 ## Making a Swap File
-The amount of swap in the video is not enough to be able to pull Roboflow from the library. To make more swap, follow these steps after you've logged into the Jetson: <br />
+The amount of swap in the nano is not enough to be able to pull Roboflow from the library. To make more swap storage, follow these steps after you've logged into the Jetson: <br />
 1. First, disable swap so we can make changes: 
     >sudo swapoff -a
 2. Next, create a swap file. This will take quite a while: 
