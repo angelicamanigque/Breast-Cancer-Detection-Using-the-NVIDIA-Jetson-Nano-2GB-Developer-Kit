@@ -11,7 +11,7 @@ After making the swap file during [setup](https://github.com/angelicamanigque/Br
 Before starting this entire section, I recommend having the page for the [roboflow model](https://app.roboflow.com/nvidia-jetson-nano-2gb/breast-cancer-detection/1) open. Then scroll down and click the section that says "Use curl command". The pop-up will contain information that you will need later. <br />
 ![curl_command](https://user-images.githubusercontent.com/95183346/177419217-d08159de-4a3b-4154-8c81-f335b30c9cb6.PNG)
 Without further ado, let's get started: <br />
-1. First, download a test image that you want the model to classify. Then, go to any browser and do Ctrl-O. Double-click on the image you want and you should get the link to it. Copy and paste the link as follows:
+1. First, download a test image that you want the model to classify. Then, go to convertfiles.com and convert your image to either a jpg or png. Once you get the link, copy and paste it as follows:
     >wget [paste your link here]
 2. Next, you'll need to install "requests", something you'll use later in the code:
     >sudo pip3 install requests pillow
