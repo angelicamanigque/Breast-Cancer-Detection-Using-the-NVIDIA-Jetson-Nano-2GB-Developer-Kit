@@ -21,7 +21,7 @@ Without further ado, let's get started: <br />
 Next up are some steps for uploading your image using base64 so it can be run through the model. For more ways to do this, check out [this link](https://docs.roboflow.com/inference/hosted-api). <br />
 1. First, you'll make variables for your key and image path. You'll reference these later in the code. This is the part where you'll need the information from the curl command. Copy and paste sections of the link as follows, and, as always, change the image to your image path if you are not using the sample image:
     >MY_KEY = "Cszeb8xRff1g8RjgrNxp" <br />
-    >img_path = "malignant.jpg" <br />
+    >img_path = "benign.jpg" <br />
 3. The next couple of lines in your code will be imports:
     >import requests <br />
     >import base64 <br />
@@ -29,8 +29,8 @@ Next up are some steps for uploading your image using base64 so it can be run th
     >import PIL <br />
     >from PIL import UnidentifiedImageError <br />
     >from PIL import Image <br />
-4. Then load the image using PIL (replace "malignant.jpg" with whatever image you're using):
-    >image = Image.open("malignant.jpg").convert("RGB")
+4. Then load the image using PIL (replace "benign.jpg" with whatever image you're using):
+    >image = Image.open("benign.jpg").convert("RGB")
 5. Convert the image to JPEG:
     >buffered = io.BytesIO() <br />
     >image.save(buffered, quality = 90, format = "JPEG") <br />
