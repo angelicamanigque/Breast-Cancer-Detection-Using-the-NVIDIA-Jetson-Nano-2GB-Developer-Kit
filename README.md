@@ -7,8 +7,8 @@ It compares images/ultrasound data to check if a tumor is benign (harmless) or m
 ## Links you'll need:
 The model I made on [roboflow](https://roboflow.com): https://app.roboflow.com/nvidia-jetson-nano-2gb/breast-cancer-detection/1 <br />
 If you're a Windows user, I recommend using Putty to SSH into the Nano: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html <br />
-If you would like, here is the sample image of a malignant tumor that I will be using in the instructions. If you'll be following along, please download it: <br />
-![malignant](https://user-images.githubusercontent.com/95183346/177418577-7512645b-94f4-4c9d-9449-bb3a38a26d7e.PNG)
+If you would like, here is the sample image of a tumor that I will be using in the instructions. If you'll be following along, please download it: <br />
+![benign](https://user-images.githubusercontent.com/95183346/177460168-f0715e65-ea99-4482-bd4e-5fd1c26e49f1.png)
 
 ## Hardware you'll need:
 The Jetson 2GB Developer Kit <br />
