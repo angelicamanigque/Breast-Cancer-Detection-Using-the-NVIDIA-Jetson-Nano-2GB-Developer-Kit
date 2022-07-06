@@ -49,4 +49,4 @@ Next up are some steps for uploading your image using base64 so it can be run th
    
 You should see the results! :D
  
-![da_prediction](https://user-images.githubusercontent.com/95183346/177419408-711be3eb-5ffd-471f-ad12-326bfa8d1492.PNG)
+![prediction](https://user-images.githubusercontent.com/95183346/177465608-29e78ae0-07ce-4faf-8276-a835d624278b.PNG)
